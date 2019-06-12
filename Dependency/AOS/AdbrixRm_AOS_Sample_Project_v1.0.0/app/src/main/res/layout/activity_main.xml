@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:src="@drawable/adbrix_logo"/>
+
+            <TextView
+                android:id="@+id/textViewLogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="AdBrix Remastered Sample Project" />
+
+            <TextView
+                android:id="@+id/textViewInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:text="애드브릭스 리마스터 샘플 프로젝트" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="3">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textColor="#777"
+                        android:layout_marginRight="2dp"
+                        android:text="Common" />
+
+                    <Button
+                        android:layout_margin="2dp"
+                        android:id="@+id/purchase"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:bottomRightRadius="4dp"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp"
+                        android:bottomLeftRadius="4dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:textColor="@drawable/btn_text_white"
+                        android:text="Purchase" />
+                    <Button
+                        android:layout_margin="2dp"
+                        android:id="@+id/sign_up"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:bottomRightRadius="4dp"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp"
+                        android:bottomLeftRadius="4dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:textColor="@drawable/btn_text_white"
+                        android:text="sign up" />
+                    <Button
+                        android:layout_margin="2dp"
+                        android:id="@+id/use_credit"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:bottomRightRadius="4dp"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp"
+                        android:bottomLeftRadius="4dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:textColor="@drawable/btn_text_white"
+                        android:text="use credit" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:gravity="center"
+                        android:padding="4dp"
+                        android:textColor="#777"
+                        android:text="Game" />
+
+                    <Button
+                        android:id="@+id/character_created"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:bottomLeftRadius="4dp"
+                        android:bottomRightRadius="4dp"
+                        android:text="Create Character"
+                        android:textColor="@drawable/btn_text_white"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp" />
+
+                    <Button
+                        android:id="@+id/tutorial_completed"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:bottomLeftRadius="4dp"
+                        android:bottomRightRadius="4dp"
+                        android:text="Complete tutorial"
+                        android:textColor="@drawable/btn_text_white"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp" />
+
+                    <Button
+                        android:id="@+id/level_achieved"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_margin="2dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:bottomLeftRadius="4dp"
+                        android:bottomRightRadius="4dp"
+                        android:text="Achieve Level"
+                        android:textColor="@drawable/btn_text_white"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp" />
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:padding="4dp"
+                        android:text="Commerce"
+                        android:bottomRightRadius="4dp"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp"
+                        android:bottomLeftRadius="4dp"
+                        android:textColor="#777"/>
+                    <Button
+                        android:layout_margin="2dp"
+                        android:id="@+id/viewHome"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:text="VIEW HOME"
+                        android:bottomRightRadius="4dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:textColor="@drawable/btn_text_white"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp"
+                        android:bottomLeftRadius="4dp"/>
+                    <Button
+                        android:layout_margin="2dp"
+                        android:id="@+id/pDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:textColor="@drawable/btn_text_white"
+                        android:text="View Product"
+                        android:bottomRightRadius="4dp"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp"
+                        android:bottomLeftRadius="4dp"/>
+                    <Button
+                        android:layout_margin="2dp"
+                        android:id="@+id/cart"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:background="@drawable/btn_round_blue"
+                        android:textColor="@drawable/btn_text_white"
+                        android:text="Add to Cart"
+                        android:bottomRightRadius="4dp"
+                        android:topLeftRadius="4dp"
+                        android:topRightRadius="4dp"
+                        android:bottomLeftRadius="4dp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#eee"
+                android:layout_marginTop="50dp">
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

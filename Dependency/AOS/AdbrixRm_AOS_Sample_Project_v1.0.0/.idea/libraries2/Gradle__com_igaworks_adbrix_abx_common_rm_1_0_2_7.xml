@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.igaworks.adbrix:abx-common-rm-1.0.2.7">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/abx-common-rm-1.0.2.7.aar/25d581644aa6764b2103fdf8bb387c47/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/abx-common-rm-1.0.2.7.aar/25d581644aa6764b2103fdf8bb387c47/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.igaworks.adbrix/abx-common-rm/1.0.2.7/b5d9aaa30613908e526d5e6ca8edd46797ab0808/abx-common-rm-1.0.2.7-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
